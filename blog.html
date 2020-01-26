@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<title>Blog</title>
+	<!-- Load Scripts	-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body>
+	<!-- Global Header -->
+	<script type="text/javascript">
+		writeHeader();
+	</script>
+	
+	<section id="contents-main" class="blog">
+		<div id="article-route">
+			<h3>Home&ensp;&gt;&gt;&ensp;Column&ensp;&gt;&gt;&ensp;Technology</h3>
+		</div>
+		<div id="articles">
+		<article class="article">
+			<header class="article-header">
+				<h2 class="article-title">Duet Displayを用いたProTools編集</h2>
+			</header>
+			<section class="article-contents">
+				<h3 class="article-contents-title">モバイルディスプレイとしてのiPad</h3>
+				<p>普段からマルチディスプレイでMixウィンドウとEditウィンドウを使っている身としては、出先での編集作業が億劫なのである。</p>
+				<p>というのも、MacBookPro(JIS Keyboard)にはウィンドウを切り替える、＝キーが無いからだ。（?＋＝でMix/Editウィンドウの切り替え）</p>
+				<p>そこで今回は、iOS対応の「Duet」を試しに使ってみた。</p>
+				<p>「Duet」をPCとiPadにインストール・起動し、Lightningケーブルで双方を繋ぐ。</p>
+					設定を完了させてiPadの画面をタッチすると、カーソルが現れる。
+					ProToolsのMix画面にてフェーダーを指で上げ下げすることで、自然なオートメーションを描くことができるのでは？と考えた。
+					しかしタッチパネルとしてはレイテンシが気になり、まだまだ運用には向かない。（体感上、１Sec未満で反応している）
+					因みに、映像の遅延は気にならない程度。動画再生にも耐え得る。
+					<p>結局、ProToolsControlはwifi環境がないとダメだし、まだまだCommand8やArtist Mixに頼らざるを得ないのか～～。</p>
+				<img src="img/duet1.JPG" alt="Duet使用時の環境1" height="180px">
+				<img src="img/duet2.JPG" alt="Duet使用時の環境2" height="180px">
+			</section>
+			<footer class="article-footer">
+				<small>Author:kou969</small>
+				<small>date:<date>2017-07-17</date></small>
+			</footer>
+		</article>
+		</div>
+		
+<!--		<aside id="side-bar">
+			<div id="calender">
+				
+			</div>
+		</aside>-->
+	</section>
+	
+	<!-- Global Footer -->
+	<script type="text/javascript">
+		writeFooter();
+	</script>
+</body>
+</html>

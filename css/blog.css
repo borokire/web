@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Blog */
+
+.article {
+	width: 500px;
+	/*height: 500px;*/
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	border: 2px solid black;
+}
+
+.article-contents-title {
+	height: 2em;
+	padding: 5px 4px;
+	color: #fff;
+	background-color: #245C84
+}
+
+.article-title {
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+#article-route {
+	width: 500px;
+	padding: 5px 0px;
+}
+
+#articles {
+	width: 600px;
+	height: 1800px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#side-bar {
+	float: left;
+	width: 300px;
+	height: inherit;
+	border: 1px solid #444;
+}
+
+.article-contents p {
+	padding: 0px 5px;
+}

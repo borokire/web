@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General Settings*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+footer, header, nav, small{
+  display:block;
+  /* 対象の要素をブロックボックス（意味や機能のまとまりの単位）として生成する */
+}
+
+body{
+	width: 100%;
+	min-width: 1600px;
+	/*min-height: 900px;*/
+  color:#696969; 
+  /*テキストの前景色*/
+  font-family:"Verdana";
+  font-size:small;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+span.accent{
+	color: #FF3300;
+}
+
+.logo {
+	height: 90px;
+	width: 260px;
+	float: left;
+}
+
+#page-header {
+	height: 90px;
+	width: inherit;
+	background-color: #FF6600;
+}
+
+#header-logo {
+	padding: 0px;
+}
+
+#global-nav {
+	height: inherit;
+	float: left;
+}
+
+#global-nav ul {
+	height: inherit;
+	float: left;
+}
+
+#global-nav ul li {
+	padding: 33px 25px;
+	list-style: none;
+	float: left;
+	font-size: 1.5em;
+}
+
+#contents-main {
+	margin: 20px 50px;
+}
+
+#page-footer {
+	height: 180px;
+	width: inherit;
+	background-color: #333333;
+}
+
+#footer-logo {
+	padding: 10px 0px 10px 30px;
+	float: left;
+	clear: both;
+}
+
+#copy-container {
+	border-top: 1px solid #fff;
+}
+
+#copy {
+	clear: both;
+	line-height: 2em;
+	padding: 5px 50px;
+}
+
+
+/* For Main Page*/
+
+#contents-title {
+	height: 250px ;
+	width: 1000px ;
+	padding: 29px 30px;
+	font-size: 6em;
+	border-bottom: 2px solid #efefef;
+}
+
+.contents-box {
+	width: 180px;
+	height: 250px;
+	margin: 20px 10px;
+	border: 1px solid #efefef;
+	float: left;
+	overflow: hidden;
+}
+
+#contents-list {
+	height: 330px;
+	width: 1200px;
+}
+
+/* For Blog*/
+
+.blog {
+	height: 800px;
+	padding-bottom: 50px;
+	overflow-y: visible;
+}
+
+
+
+
+/* For Works*/
+
+.soundcloud-player {
+	float: right;
+	height: 166px;
+	width: 600px;
+}
+
+.sound-work {
+	height: 200px;
+	width: 1500px;
+	margin-top: 25px;
+	border: 0px solid black;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.075);
+}
+
+.sound-work-info {
+	width: 850px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#attention {
+	padding: 20px 0px 10px 0px;
+}
+
+.games {
+	height: 200px;
+	width: 1500px;
+	margin-top: 25px;
+	border: 0px solid black;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.075);
+}
+
+.game-info {
+	width: 850px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.game-banner {
+	margin: 30px 0px;
+	float: right;
+	height: 166px;
+	width: 600px;
+}
+
+.aboutUs {
+	margin: 30px 20px;
+	height: 170px;
+	clear: both;
+}
+
+.aboutUs div {
+	margin: 10px 20px;
+	float: left;
+	font-size: 20px
+}
+
+.aboutUs img {
+	float: left;
+	margin-top: 10px;
+}
+
+.aboutUs h1 {
+	font-size: 25px;
+}
+
+#contents-main-header {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.sources {
+	margin: 30px 20px;
+	height: 170px;
+	clear: both;
+	font-size: 25px;
+}
+
+#Blog {
+	background-image:url(../img/Blog.png);
+	background-size: 180px 250px;
+}
+
+#Works {
+	background-image:url(../img/Works.png);
+	background-size: 180px 250px;
+}
+
+#Game {
+	background-image:url(../img/Games.png);
+	background-size: 180px 250px;
+}
+
+#About {
+	background-image:url(../img/About.png);
+	background-size: 180px 250px;
+}
+
+#Sources {
+	background-image:url(../img/Sources.png);
+	background-size: 180px 250px;
+}
+
+.box-content-title {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 150px;
+	padding: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+.box-content-detail {
+	width: 140px;
+	height: 150px;
+	text-align: center;
+	padding: 53px 20px;
+	font-size: 16px;
+	color: #fff;
+	opacity: 0;
+	transition: .7s;
+	margin-top: 0px;
+}
+
+.box-content-detail.showUp {
+	opacity: 1;
+	margin-top: -250px;
+}
+
+#contents-main-header p {
+	padding-left: 5px;
+}
+
+
+
+.section-title {
+	font-size: 30px;
+}
